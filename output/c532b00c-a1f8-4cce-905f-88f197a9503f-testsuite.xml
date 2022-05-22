@@ -1,0 +1,607 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1653192565002' stop='1653192619943'>
+    <name>Business rules</name>
+    <title>Business rules</title>
+    <test-cases>
+        <test-case start='1653192566113' status='passed' stop='1653192576083'>
+            <name>Active Payment Channels with Custom Select only Credit Card</name>
+            <title>Active Payment Channels with Custom Select only Credit Card</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1653192566836' status='passed' stop='1653192570883'>
+                    <name>Given i will set only Credit Card </name>
+                    <title>Given i will set only Credit Card </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1653192566836' status='passed' stop='1653192568636'>
+                            <name>I am on page "https://demo.midtrans.com/"</name>
+                            <title>I am on page "https://demo.midtrans.com/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1653192568638' status='passed' stop='1653192568893'>
+                            <name>I click {"xpath":"//*[@id=\"container\"]/div/div/div[1]/div[2]/div/div/a"}</name>
+                            <title>I click {"xpath":"//*[@id=\"container\"]/div/div/div[1]/div[2]/div/div/a"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1653192568894' status='passed' stop='1653192568909'>
+                            <name>I see element {"xpath":"//*[@id=\"container\"]/div/div/div[2]/div[1]/div[1]/span[1]"}</name>
+                            <title>I see element {"xpath":"//*[@id=\"container\"]/div/div/div[2]/div[1]/div[1]/span[1]"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1653192568909' status='passed' stop='1653192569279'>
+                            <name>I click {"xpath":"//*[@id=\"container\"]/div/div/div[2]/div[2]/div[2]/img"}</name>
+                            <title>I click {"xpath":"//*[@id=\"container\"]/div/div/div[2]/div[2]/div[2]/img"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1653192569280' status='passed' stop='1653192569299'>
+                            <name>I see element {"xpath":"//*[@id=\"container\"]/div/div/div[2]/div[3]/div[1]/span"}</name>
+                            <title>I see element {"xpath":"//*[@id=\"container\"]/div/div/div[2]/div[3]/div[1]/span"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1653192569299' status='passed' stop='1653192569608'>
+                            <name>I click {"xpath":"//*[@id=\"main_setting_div_custom\"]"}</name>
+                            <title>I click {"xpath":"//*[@id=\"main_setting_div_custom\"]"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1653192569609' status='passed' stop='1653192570091'>
+                            <name>I click {"xpath":"//*[@id=\"is_snap_pop_up:false\"]"}</name>
+                            <title>I click {"xpath":"//*[@id=\"is_snap_pop_up:false\"]"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1653192570091' status='passed' stop='1653192570230'>
+                            <name>I scroll to {"xpath":"//*[@id=\"main_setting_div_custom\"]/div/div/div[5]/div[3]/label"}</name>
+                            <title>I scroll to {"xpath":"//*[@id=\"main_setting_div_custom\"]/div/div/div[5]/div[3]/label"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1653192570231' status='passed' stop='1653192570680'>
+                            <name>I click {"xpath":"//*[@id=\"customselect\"]"}</name>
+                            <title>I click {"xpath":"//*[@id=\"customselect\"]"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1653192570681' status='passed' stop='1653192570715'>
+                            <name>I see checkbox is checked {"xpath":"//*[@id=\"customselect\"]"}</name>
+                            <title>I see checkbox is checked {"xpath":"//*[@id=\"customselect\"]"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1653192570716' status='passed' stop='1653192570872'>
+                            <name>I click {"xpath":"//*[@id=\"enabled_payments:credit_card\"]"}</name>
+                            <title>I click {"xpath":"//*[@id=\"enabled_payments:credit_card\"]"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1653192570872' status='passed' stop='1653192570883'>
+                            <name>I see checkbox is checked {"xpath":"//*[@id=\"enabled_payments:credit_card\"]"}</name>
+                            <title>I see checkbox is checked {"xpath":"//*[@id=\"enabled_payments:credit_card\"]"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1653192570883' status='passed' stop='1653192576061'>
+                    <name>When i click Start </name>
+                    <title>When i click Start </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1653192570883' status='passed' stop='1653192571055'>
+                            <name>I click {"xpath":"//*[@id=\"container\"]/div/div/div[2]/div[3]/div[3]/div[2]/a"}</name>
+                            <title>I click {"xpath":"//*[@id=\"container\"]/div/div/div[2]/div[3]/div[3]/div[2]/a"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1653192571056' status='passed' stop='1653192576061'>
+                            <name>I wait 5</name>
+                            <title>I wait 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1653192576061' status='passed' stop='1653192576083'>
+                    <name>Then i see Credit card </name>
+                    <title>Then i see Credit card </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1653192576061' status='passed' stop='1653192576083'>
+                            <name>I wait for text "Credit/debit card"</name>
+                            <title>I wait for text "Credit/debit card"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1653192576215' status='passed' stop='1653192586504'>
+            <name>Active Payment Channels with Custom Select only ATM/Bank Transfer</name>
+            <title>Active Payment Channels with Custom Select only ATM/Bank Transfer</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1653192577030' status='passed' stop='1653192581280'>
+                    <name>Given i will set only ATM or Bank Transfer </name>
+                    <title>Given i will set only ATM or Bank Transfer </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1653192577030' status='passed' stop='1653192579066'>
+                            <name>I am on page "https://demo.midtrans.com/"</name>
+                            <title>I am on page "https://demo.midtrans.com/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1653192579066' status='passed' stop='1653192579317'>
+                            <name>I click {"xpath":"//*[@id=\"container\"]/div/div/div[1]/div[2]/div/div/a"}</name>
+                            <title>I click {"xpath":"//*[@id=\"container\"]/div/div/div[1]/div[2]/div/div/a"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1653192579317' status='passed' stop='1653192579337'>
+                            <name>I see element {"xpath":"//*[@id=\"container\"]/div/div/div[2]/div[1]/div[1]/span[1]"}</name>
+                            <title>I see element {"xpath":"//*[@id=\"container\"]/div/div/div[2]/div[1]/div[1]/span[1]"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1653192579337' status='passed' stop='1653192579799'>
+                            <name>I click {"xpath":"//*[@id=\"container\"]/div/div/div[2]/div[2]/div[2]/img"}</name>
+                            <title>I click {"xpath":"//*[@id=\"container\"]/div/div/div[2]/div[2]/div[2]/img"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1653192579800' status='passed' stop='1653192579821'>
+                            <name>I see element {"xpath":"//*[@id=\"container\"]/div/div/div[2]/div[3]/div[1]/span"}</name>
+                            <title>I see element {"xpath":"//*[@id=\"container\"]/div/div/div[2]/div[3]/div[1]/span"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1653192579822' status='passed' stop='1653192580082'>
+                            <name>I click {"xpath":"//*[@id=\"main_setting_div_custom\"]"}</name>
+                            <title>I click {"xpath":"//*[@id=\"main_setting_div_custom\"]"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1653192580082' status='passed' stop='1653192580556'>
+                            <name>I click {"xpath":"//*[@id=\"is_snap_pop_up:false\"]"}</name>
+                            <title>I click {"xpath":"//*[@id=\"is_snap_pop_up:false\"]"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1653192580556' status='passed' stop='1653192580681'>
+                            <name>I scroll to {"xpath":"//*[@id=\"main_setting_div_custom\"]/div/div/div[5]/div[3]/label"}</name>
+                            <title>I scroll to {"xpath":"//*[@id=\"main_setting_div_custom\"]/div/div/div[5]/div[3]/label"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1653192580681' status='passed' stop='1653192581076'>
+                            <name>I click {"xpath":"//*[@id=\"customselect\"]"}</name>
+                            <title>I click {"xpath":"//*[@id=\"customselect\"]"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1653192581076' status='passed' stop='1653192581088'>
+                            <name>I see checkbox is checked {"xpath":"//*[@id=\"customselect\"]"}</name>
+                            <title>I see checkbox is checked {"xpath":"//*[@id=\"customselect\"]"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1653192581089' status='passed' stop='1653192581265'>
+                            <name>I click {"xpath":"//*[@id=\"enabled_payments:bank_transfer\"]"}</name>
+                            <title>I click {"xpath":"//*[@id=\"enabled_payments:bank_transfer\"]"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1653192581265' status='passed' stop='1653192581280'>
+                            <name>I see checkbox is checked {"xpath":"//*[@id=\"enabled_payments:bank_transfer\"]"}</name>
+                            <title>I see checkbox is checked {"xpath":"//*[@id=\"enabled_payments:bank_transfer\"]"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1653192581280' status='passed' stop='1653192586493'>
+                    <name>When i click Start </name>
+                    <title>When i click Start </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1653192581280' status='passed' stop='1653192581487'>
+                            <name>I click {"xpath":"//*[@id=\"container\"]/div/div/div[2]/div[3]/div[3]/div[2]/a"}</name>
+                            <title>I click {"xpath":"//*[@id=\"container\"]/div/div/div[2]/div[3]/div[3]/div[2]/a"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1653192581488' status='passed' stop='1653192586493'>
+                            <name>I wait 5</name>
+                            <title>I wait 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1653192586493' status='passed' stop='1653192586504'>
+                    <name>Then i see Bank transfer </name>
+                    <title>Then i see Bank transfer </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1653192586493' status='passed' stop='1653192586504'>
+                            <name>I wait for text "Bank transfer"</name>
+                            <title>I wait for text "Bank transfer"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1653192586607' status='passed' stop='1653192597788'>
+            <name>Active Payment Channels with Custom Select only GO-PAY</name>
+            <title>Active Payment Channels with Custom Select only GO-PAY</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1653192587694' status='passed' stop='1653192592577'>
+                    <name>Given i will set only GO-PAY </name>
+                    <title>Given i will set only GO-PAY </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1653192587695' status='passed' stop='1653192590774'>
+                            <name>I am on page "https://demo.midtrans.com/"</name>
+                            <title>I am on page "https://demo.midtrans.com/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1653192590774' status='passed' stop='1653192591027'>
+                            <name>I click {"xpath":"//*[@id=\"container\"]/div/div/div[1]/div[2]/div/div/a"}</name>
+                            <title>I click {"xpath":"//*[@id=\"container\"]/div/div/div[1]/div[2]/div/div/a"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1653192591029' status='passed' stop='1653192591063'>
+                            <name>I see element {"xpath":"//*[@id=\"container\"]/div/div/div[2]/div[1]/div[1]/span[1]"}</name>
+                            <title>I see element {"xpath":"//*[@id=\"container\"]/div/div/div[2]/div[1]/div[1]/span[1]"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1653192591064' status='passed' stop='1653192591349'>
+                            <name>I click {"xpath":"//*[@id=\"container\"]/div/div/div[2]/div[2]/div[2]/img"}</name>
+                            <title>I click {"xpath":"//*[@id=\"container\"]/div/div/div[2]/div[2]/div[2]/img"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1653192591352' status='passed' stop='1653192591376'>
+                            <name>I see element {"xpath":"//*[@id=\"container\"]/div/div/div[2]/div[3]/div[1]/span"}</name>
+                            <title>I see element {"xpath":"//*[@id=\"container\"]/div/div/div[2]/div[3]/div[1]/span"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1653192591377' status='passed' stop='1653192591634'>
+                            <name>I click {"xpath":"//*[@id=\"main_setting_div_custom\"]"}</name>
+                            <title>I click {"xpath":"//*[@id=\"main_setting_div_custom\"]"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1653192591634' status='passed' stop='1653192592090'>
+                            <name>I click {"xpath":"//*[@id=\"is_snap_pop_up:false\"]"}</name>
+                            <title>I click {"xpath":"//*[@id=\"is_snap_pop_up:false\"]"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1653192592090' status='passed' stop='1653192592233'>
+                            <name>I scroll to {"xpath":"//*[@id=\"main_setting_div_custom\"]/div/div/div[5]/div[3]/label"}</name>
+                            <title>I scroll to {"xpath":"//*[@id=\"main_setting_div_custom\"]/div/div/div[5]/div[3]/label"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1653192592234' status='passed' stop='1653192592408'>
+                            <name>I click {"xpath":"//*[@id=\"customselect\"]"}</name>
+                            <title>I click {"xpath":"//*[@id=\"customselect\"]"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1653192592409' status='passed' stop='1653192592421'>
+                            <name>I see checkbox is checked {"xpath":"//*[@id=\"customselect\"]"}</name>
+                            <title>I see checkbox is checked {"xpath":"//*[@id=\"customselect\"]"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1653192592421' status='passed' stop='1653192592566'>
+                            <name>I click {"xpath":"//*[@id=\"enabled_payments:gopay\"]"}</name>
+                            <title>I click {"xpath":"//*[@id=\"enabled_payments:gopay\"]"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1653192592566' status='passed' stop='1653192592576'>
+                            <name>I see checkbox is checked {"xpath":"//*[@id=\"enabled_payments:gopay\"]"}</name>
+                            <title>I see checkbox is checked {"xpath":"//*[@id=\"enabled_payments:gopay\"]"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1653192592577' status='passed' stop='1653192597768'>
+                    <name>When i click Start </name>
+                    <title>When i click Start </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1653192592577' status='passed' stop='1653192592754'>
+                            <name>I click {"xpath":"//*[@id=\"container\"]/div/div/div[2]/div[3]/div[3]/div[2]/a"}</name>
+                            <title>I click {"xpath":"//*[@id=\"container\"]/div/div/div[2]/div[3]/div[3]/div[2]/a"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1653192592754' status='passed' stop='1653192597768'>
+                            <name>I wait 5</name>
+                            <title>I wait 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1653192597768' status='passed' stop='1653192597788'>
+                    <name>Then i see GoPay </name>
+                    <title>Then i see GoPay </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1653192597768' status='passed' stop='1653192597787'>
+                            <name>I wait for text "GoPay"</name>
+                            <title>I wait for text "GoPay"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1653192597948' status='passed' stop='1653192608782'>
+            <name>Active Payment Channels with Custom Select only Indomaret</name>
+            <title>Active Payment Channels with Custom Select only Indomaret</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1653192598928' status='passed' stop='1653192603563'>
+                    <name>Given i will set only Indomaret </name>
+                    <title>Given i will set only Indomaret </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1653192598928' status='passed' stop='1653192601265'>
+                            <name>I am on page "https://demo.midtrans.com/"</name>
+                            <title>I am on page "https://demo.midtrans.com/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1653192601265' status='passed' stop='1653192601546'>
+                            <name>I click {"xpath":"//*[@id=\"container\"]/div/div/div[1]/div[2]/div/div/a"}</name>
+                            <title>I click {"xpath":"//*[@id=\"container\"]/div/div/div[1]/div[2]/div/div/a"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1653192601546' status='passed' stop='1653192601620'>
+                            <name>I see element {"xpath":"//*[@id=\"container\"]/div/div/div[2]/div[1]/div[1]/span[1]"}</name>
+                            <title>I see element {"xpath":"//*[@id=\"container\"]/div/div/div[2]/div[1]/div[1]/span[1]"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1653192601620' status='passed' stop='1653192601984'>
+                            <name>I click {"xpath":"//*[@id=\"container\"]/div/div/div[2]/div[2]/div[2]/img"}</name>
+                            <title>I click {"xpath":"//*[@id=\"container\"]/div/div/div[2]/div[2]/div[2]/img"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1653192601985' status='passed' stop='1653192602001'>
+                            <name>I see element {"xpath":"//*[@id=\"container\"]/div/div/div[2]/div[3]/div[1]/span"}</name>
+                            <title>I see element {"xpath":"//*[@id=\"container\"]/div/div/div[2]/div[3]/div[1]/span"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1653192602002' status='passed' stop='1653192602273'>
+                            <name>I click {"xpath":"//*[@id=\"main_setting_div_custom\"]"}</name>
+                            <title>I click {"xpath":"//*[@id=\"main_setting_div_custom\"]"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1653192602274' status='passed' stop='1653192602766'>
+                            <name>I click {"xpath":"//*[@id=\"is_snap_pop_up:false\"]"}</name>
+                            <title>I click {"xpath":"//*[@id=\"is_snap_pop_up:false\"]"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1653192602766' status='passed' stop='1653192603207'>
+                            <name>I scroll to {"xpath":"//*[@id=\"main_setting_div_custom\"]/div/div/div[5]/div[3]/label"}</name>
+                            <title>I scroll to {"xpath":"//*[@id=\"main_setting_div_custom\"]/div/div/div[5]/div[3]/label"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1653192603207' status='passed' stop='1653192603380'>
+                            <name>I click {"xpath":"//*[@id=\"customselect\"]"}</name>
+                            <title>I click {"xpath":"//*[@id=\"customselect\"]"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1653192603380' status='passed' stop='1653192603390'>
+                            <name>I see checkbox is checked {"xpath":"//*[@id=\"customselect\"]"}</name>
+                            <title>I see checkbox is checked {"xpath":"//*[@id=\"customselect\"]"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1653192603390' status='passed' stop='1653192603552'>
+                            <name>I click {"xpath":"//*[@id=\"enabled_payments:indomaret\"]"}</name>
+                            <title>I click {"xpath":"//*[@id=\"enabled_payments:indomaret\"]"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1653192603552' status='passed' stop='1653192603563'>
+                            <name>I see checkbox is checked {"xpath":"//*[@id=\"enabled_payments:indomaret\"]"}</name>
+                            <title>I see checkbox is checked {"xpath":"//*[@id=\"enabled_payments:indomaret\"]"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1653192603563' status='passed' stop='1653192608763'>
+                    <name>When i click Start </name>
+                    <title>When i click Start </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1653192603563' status='passed' stop='1653192603754'>
+                            <name>I click {"xpath":"//*[@id=\"container\"]/div/div/div[2]/div[3]/div[3]/div[2]/a"}</name>
+                            <title>I click {"xpath":"//*[@id=\"container\"]/div/div/div[2]/div[3]/div[3]/div[2]/a"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1653192603755' status='passed' stop='1653192608763'>
+                            <name>I wait 5</name>
+                            <title>I wait 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1653192608763' status='passed' stop='1653192608782'>
+                    <name>Then i see Indomaret </name>
+                    <title>Then i see Indomaret </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1653192608763' status='passed' stop='1653192608782'>
+                            <name>I wait for text "Indomaret"</name>
+                            <title>I wait for text "Indomaret"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1653192608993' status='passed' stop='1653192619812'>
+            <name>Active Payment Channels with Custom Select only CIMB Clicks</name>
+            <title>Active Payment Channels with Custom Select only CIMB Clicks</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1653192610274' status='passed' stop='1653192614584'>
+                    <name>Given i will set only CIMB Clicks </name>
+                    <title>Given i will set only CIMB Clicks </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1653192610274' status='passed' stop='1653192612444'>
+                            <name>I am on page "https://demo.midtrans.com/"</name>
+                            <title>I am on page "https://demo.midtrans.com/"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1653192612445' status='passed' stop='1653192612683'>
+                            <name>I click {"xpath":"//*[@id=\"container\"]/div/div/div[1]/div[2]/div/div/a"}</name>
+                            <title>I click {"xpath":"//*[@id=\"container\"]/div/div/div[1]/div[2]/div/div/a"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1653192612684' status='passed' stop='1653192612727'>
+                            <name>I see element {"xpath":"//*[@id=\"container\"]/div/div/div[2]/div[1]/div[1]/span[1]"}</name>
+                            <title>I see element {"xpath":"//*[@id=\"container\"]/div/div/div[2]/div[1]/div[1]/span[1]"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1653192612727' status='passed' stop='1653192613028'>
+                            <name>I click {"xpath":"//*[@id=\"container\"]/div/div/div[2]/div[2]/div[2]/img"}</name>
+                            <title>I click {"xpath":"//*[@id=\"container\"]/div/div/div[2]/div[2]/div[2]/img"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1653192613030' status='passed' stop='1653192613072'>
+                            <name>I see element {"xpath":"//*[@id=\"container\"]/div/div/div[2]/div[3]/div[1]/span"}</name>
+                            <title>I see element {"xpath":"//*[@id=\"container\"]/div/div/div[2]/div[3]/div[1]/span"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1653192613072' status='passed' stop='1653192613352'>
+                            <name>I click {"xpath":"//*[@id=\"main_setting_div_custom\"]"}</name>
+                            <title>I click {"xpath":"//*[@id=\"main_setting_div_custom\"]"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1653192613353' status='passed' stop='1653192613845'>
+                            <name>I click {"xpath":"//*[@id=\"is_snap_pop_up:false\"]"}</name>
+                            <title>I click {"xpath":"//*[@id=\"is_snap_pop_up:false\"]"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1653192613845' status='passed' stop='1653192614220'>
+                            <name>I scroll to {"xpath":"//*[@id=\"main_setting_div_custom\"]/div/div/div[5]/div[3]/label"}</name>
+                            <title>I scroll to {"xpath":"//*[@id=\"main_setting_div_custom\"]/div/div/div[5]/div[3]/label"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1653192614221' status='passed' stop='1653192614389'>
+                            <name>I click {"xpath":"//*[@id=\"customselect\"]"}</name>
+                            <title>I click {"xpath":"//*[@id=\"customselect\"]"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1653192614389' status='passed' stop='1653192614407'>
+                            <name>I see checkbox is checked {"xpath":"//*[@id=\"customselect\"]"}</name>
+                            <title>I see checkbox is checked {"xpath":"//*[@id=\"customselect\"]"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1653192614407' status='passed' stop='1653192614558'>
+                            <name>I click {"xpath":"//*[@id=\"enabled_payments:cimb_clicks\"]"}</name>
+                            <title>I click {"xpath":"//*[@id=\"enabled_payments:cimb_clicks\"]"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1653192614558' status='passed' stop='1653192614583'>
+                            <name>I see checkbox is checked {"xpath":"//*[@id=\"enabled_payments:cimb_clicks\"]"}</name>
+                            <title>I see checkbox is checked {"xpath":"//*[@id=\"enabled_payments:cimb_clicks\"]"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1653192614584' status='passed' stop='1653192619779'>
+                    <name>When i click Start </name>
+                    <title>When i click Start </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1653192614584' status='passed' stop='1653192614775'>
+                            <name>I click {"xpath":"//*[@id=\"container\"]/div/div/div[2]/div[3]/div[3]/div[2]/a"}</name>
+                            <title>I click {"xpath":"//*[@id=\"container\"]/div/div/div[2]/div[3]/div[3]/div[2]/a"}</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                        <step start='1653192614775' status='passed' stop='1653192619779'>
+                            <name>I wait 5</name>
+                            <title>I wait 5</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+                <step start='1653192619779' status='passed' stop='1653192619812'>
+                    <name>Then i see OCTO Click </name>
+                    <title>Then i see OCTO Click </title>
+                    <attachments/>
+                    <steps>
+                        <step start='1653192619779' status='passed' stop='1653192619812'>
+                            <name>I wait for text "OCTO Click"</name>
+                            <title>I wait for text "OCTO Click"</title>
+                            <attachments/>
+                            <steps/>
+                        </step>
+                    </steps>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
